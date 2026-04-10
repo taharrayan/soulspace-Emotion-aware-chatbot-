@@ -11,8 +11,8 @@ Adaptive, dynamic responses
 
 ## How to run
 
-pip install rasa transformers torch
+-pip install rasa transformers torch
 
-rasa train
-rasa run actions
-rasa shell
+-rasa train
+-rasa run actions
+-rasa shell
