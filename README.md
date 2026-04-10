@@ -1,2 +1,11 @@
-# soulspace-Emotion-aware-chatbot-
-Emotion-aware chatbot built with Rasa and transformer models, capable of detecting user emotions and generating context-aware responses using modern NLP techniques.
+# SoulSpace 
+
+Emotion-aware chatbot using Rasa and Transformer models.
+
+## How to run
+
+pip install rasa transformers torch
+
+rasa train
+rasa run actions
+rasa shell
