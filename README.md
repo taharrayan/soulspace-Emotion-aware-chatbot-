@@ -4,7 +4,13 @@ Emotion-aware chatbot using Rasa and Transformer models.
 
 
 ---
+## 🧠 How AI is Used
 
+- DIETClassifier is used for intent classification
+- Transformer model is used for emotion detection
+- Custom actions generate dynamic responses based on detected emotions
+
+---
 ## 🚀 Features
 
 * 🧠 Emotion detection (Transformer model)
