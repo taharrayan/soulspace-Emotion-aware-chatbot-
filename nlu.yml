@@ -1,0 +1,46 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+
+- intent: express_feelings
+  examples: |
+    - I feel sad
+    - I am really tired
+    - I feel amazing today
+    - I'm stressed out
+    - I feel angry
+    - I feel lonely
+    - I am not okay
+    - I feel anxious
+    - I feel great
+    - I hate everything today
+    - I am very happy
+    - life is beautiful
+    - I feel depressed
+    - I feel nervous
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - of course
+
+- intent: deny
+  examples: |
+    - no
+    - not really
+    - I don't think so

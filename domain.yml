@@ -1,0 +1,31 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - express_feelings
+  - affirm
+  - deny
+
+entities: []
+
+slots:
+  user_emotion:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Hey, I'm SoulSpace Lite 💙 How are you feeling today?"
+
+  utter_goodbye:
+    - text: "Take care of yourself. I'm always here if you need to talk."
+
+actions:
+  - action_detect_emotion
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

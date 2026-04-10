@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+
+- story: emotion flow
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: express_feelings
+    - action: action_detect_emotion
+
+- story: continue conversation
+  steps:
+    - intent: express_feelings
+    - action: action_detect_emotion
+
+- story: goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
